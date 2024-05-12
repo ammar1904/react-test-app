@@ -6,7 +6,8 @@ const useUsers = () => {
     const [users, setUsers] = useState<Users[]>([]);
   const [errors, setErrors] = useState("");
   const [isLoading, setLoading] = useState(false);
-
+console.log(users
+)
   
   useEffect(() => {
       setLoading(true);
